@@ -26,11 +26,10 @@ The script expects ADB at `%LOCALAPPDATA%\Android\Sdk\platform-tools\adb.exe` an
 Download and extract the repository, or clone it:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/instagram-emoji-pong-bot.git
+git clone https://github.com/Enesozd1/instagram-emoji-pong-bot.git
 cd instagram-emoji-pong-bot
 ```
 
-Replace `YOUR_USERNAME` with the repository owner's GitHub username once the repo is published.
 
 **2. Install Python dependencies**
 
@@ -41,6 +40,7 @@ py -m pip install -r requirements.txt
 **3. Start the Android emulator**
 
 Open your virtual Android phone, install Instagram, and navigate to a DM containing an emoji that launches the game. **Do not start the game yet.**
+*For reference: * Android studio Pixel 7 API 35 have been used for testing.
 
 Confirm ADB sees the device:
 
