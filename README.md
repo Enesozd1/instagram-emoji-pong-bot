@@ -6,15 +6,8 @@ It captures the visible emulator window with `mss`, uses OpenCV to locate the bo
 
 ![Live run of the Instagram Emoji Pong Bot](assets/live-run.png)
 
-## What it does
 
-- Tracks the emoji using gradient-aware computer vision.
-- Predicts rebounds and can optionally reposition the paddle while the emoji is rising.
-- Controls the Android emulator via ADB rather than hijacking the Windows mouse.
-- Detects the results screen and can tap **Play again** automatically.
-- Saves result screenshots and debugging images locally for troubleshooting.
-
-This repository contains the **working v3.5 replay-fix implementation**, unchanged from the tested script. In development, one run reached **50 hits**; scores vary considerably by device and emulator performance and are **not guaranteed**.
+Python file is unchanged from the tested script. In development, one run reached **50 hits**; scores vary considerably by device and emulator performance and are **not guaranteed**. The results might also vary depending on the accuracy of your screenshot, which is a limitation.
 
 ## Requirements
 
