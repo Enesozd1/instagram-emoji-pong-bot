@@ -1,10 +1,8 @@
-# Instagram Emoji Pong Bot 🎮
+# Instagram Emoji Pong Bot 
 
 An experimental Python bot for Instagram's hidden **emoji Pong** game, running in an **Android emulator on Windows**.
 
 It captures the visible emulator window with `mss`, uses OpenCV to locate the bouncing emoji and predict its landing position, and moves the paddle using Android Debug Bridge (**ADB**). You start the first game manually; optional auto-replay can start subsequent games.
-
-> **Unofficial project.** Not affiliated with, endorsed by, or maintained by Instagram or Meta. Use at your own discretion; automation may be subject to platform rules.
 
 ## What it does
 
